@@ -1,0 +1,16 @@
+.isOnline {
+  color: green;
+}
+
+.isOffline {
+  color: red;
+}
+
+.item {
+  display: grid;
+  grid-gap: 10px;
+  justify-items: center;
+  border: 1px rgb(27, 201, 47) solid;
+  border-radius: 15px;
+  padding: 40px;
+}
