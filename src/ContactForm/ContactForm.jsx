@@ -48,7 +48,7 @@ export const ContactForm = ({ addNewContact }) => {
           />
         </div>
 
-        <button className={css.button} type="submit">
+        <button className={css.buttonForm} type="submit">
           Add contact
         </button>
       </Form>
