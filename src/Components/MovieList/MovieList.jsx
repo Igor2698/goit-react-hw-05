@@ -10,11 +10,12 @@ export const MovieList = ({ movies }) => {
         <li key={id} className={css.movieListItem}>
           <Link state={{ from: location }} to={`/movies/${id}`}>
             <img
+              height="80%"
               className={css.movieListImg}
               src={
                 poster_path
                   ? `https://image.tmdb.org/t/p/w342${poster_path}`
-                  : "https://lh3.googleusercontent.com/proxy/Ck-2_U_nesG5DLK_rnJrj0a6-PzzJM5PN8rloi-xAaJt7DjeuxBvQADgqtpxjCZT1UEk4Y5RSKhpWz179XUa8R_v8Llk_DkgcNL8IRE0SyHXla_e5sJTvdFmsgs"
+                  : "https://yt3.googleusercontent.com/NOVbYO_ecQ-UGLX-oxP37cgJKH7qQEKORYAT2BuESru7zJom3eSCH7pO0r4yBUzaaLY1o1TO=s900-c-k-c0x00ffffff-no-rj"
               }
               alt={title}
             />

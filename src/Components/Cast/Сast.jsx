@@ -20,7 +20,12 @@ export default function Cast() {
       {casts.map((cast) => (
         <li className={css.castItem} key={cast.id}>
           <img
-            src={`https://image.tmdb.org/t/p/w500${cast.profile_path}`}
+            height="90%"
+            src={
+              cast.profile_path
+                ? `https://image.tmdb.org/t/p/w500${cast.profile_path}`
+                : "https://yt3.googleusercontent.com/NOVbYO_ecQ-UGLX-oxP37cgJKH7qQEKORYAT2BuESru7zJom3eSCH7pO0r4yBUzaaLY1o1TO=s900-c-k-c0x00ffffff-no-rj"
+            }
             alt={cast.name}
           />
           <div className={css.containerDescription}>
