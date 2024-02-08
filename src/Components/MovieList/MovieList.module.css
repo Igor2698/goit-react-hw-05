@@ -1,0 +1,27 @@
+.movieGalery {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+}
+
+.movieListItem {
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 3px 0px,
+    rgba(0, 0, 0, 0.14) 0px 1px 1px 0px, rgba(0, 0, 0, 0.12) 0px 2px 1px -1px;
+  transition: transform 300ms ease-in-out, box-shadow 100ms ease-in;
+  background-color: aliceblue;
+}
+
+.movieListItem:hover {
+  transform: scale(1.03);
+  box-shadow: rgb(55, 181, 225) 0px 0px 10px 0px;
+}
+
+.movieListImg {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.descriptionContainer {
+  padding: 20px 10px;
+}

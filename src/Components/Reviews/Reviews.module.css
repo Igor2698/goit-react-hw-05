@@ -1,0 +1,27 @@
+.reviewItem {
+  background-color: aliceblue;
+  box-shadow: rgb(55, 181, 225) 0px 0px 10px 0px;
+  padding: 25px 15px;
+  color: black;
+  border-radius: 5px;
+}
+
+.reviewsList {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.noReviewsText {
+  margin: 0 auto;
+  width: 400px;
+  box-shadow: rgb(55, 181, 225) 0px 0px 10px 0px;
+  border-radius: 5px;
+  background-color: antiquewhite;
+  padding: 10px 20px;
+  margin-top: 40px;
+  font-size: 24px;
+  text-align: center;
+  color: black;
+}

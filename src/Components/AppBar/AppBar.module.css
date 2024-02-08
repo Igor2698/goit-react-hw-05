@@ -1,0 +1,35 @@
+.header {
+  height: 70px;
+  display: flex;
+  align-items: center;
+}
+
+.headerNav {
+  display: grid;
+  gap: 40px;
+  grid-auto-flow: column;
+  justify-content: start;
+  margin-left: 50px;
+}
+
+.headerLink {
+  font-size: 24px;
+  padding: 7px 15px;
+  border-radius: 15px;
+  transition: box-shadow 0.25s cubic-bezier(0.7, 0.98, 0.86, 0.98) 0s,
+    color 0.25s cubic-bezier(0.7, 0.98, 0.86, 0.98) 0s;
+  color: antiquewhite;
+}
+
+.headerLink:hover,
+.active {
+  box-shadow: rgb(62, 211, 172) 1px 1px 14px;
+  color: rgb(47, 54, 64);
+  background: linear-gradient(
+    to right,
+    rgb(62, 211, 172) 0%,
+    rgb(55, 181, 225) 100%
+  );
+
+  box-sizing: border-box;
+}
