@@ -48,7 +48,7 @@ export default function Movies() {
         </p>
       )}
       {isLoading && <Loader />}
-      {movies && <MovieList location={location} movies={movies} />}
+      {movies && <MovieList movies={movies} />}
       {error && <p>❌ Something went wrong!Prease try to reload the page</p>}
     </>
   );
